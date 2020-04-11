@@ -1,0 +1,70 @@
+/* Zerando a pagina do navegador */
+*{
+    margin: 0px;
+
+}
+#estrutura /* nome do Id posto na div(pag= index.html) */
+{
+    background-color: white;/* cor do fundo*/
+    width:90%;/*largura*/
+    margin-left: auto;/* margem a esquerda*/
+    margin-right: auto;/* margem a direita */
+
+}
+#estrutura #titulo /* nome da div que esta dentro de outra no caso a div "estrutura"(pag= index.html)*/
+{
+    background-image: url("../imagens/cafe2.jpg"); /* Imagen dentro do titulo */
+    background-position: -400px -380px; /*posição x,y*/
+    color: white;
+    font-size: 15pt;
+    font-family: Arial;
+    padding-top: 10px; /* espaçamento no topo */
+    padding-left: 10px; /* espaçamento a esquerda */
+    height: 350 ; /* altura  */
+}
+
+.titulo /* criando uma classe no CSS, chamada de titulo*/
+{
+    margin-top: 400px;
+
+} 
+p{
+    text-align: justify; /*parágrafo*/
+    text-indent: 20px; /* recuo de parágrafo*/
+    font-family: century Gothic;
+    font-size: 14ptm ;
+}
+#estrutura #menu ul
+{
+    padding: 0px; /* espaçamento */    
+}
+#estrutura #menu li
+{
+    list-style: none; /* retira as marca do marcador */
+    display: inline-block; /* alinhar os links na horizontal */
+    width: 240px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estrutura #menu a
+{ /* a href do index.html */
+    font-family:Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color: #ff8;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estrutura #menu a:hover /* efeito para quando o mouse passa por cima */
+{
+    background-color: #800;
+    color: white;
+}
+#estrutura #menu a.atual /* item de menu selecionado */
+{
+    background-color: #ff9900;
+    
+}
+
